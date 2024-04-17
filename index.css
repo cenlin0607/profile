@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dec8eb;
+    margin: 0px;
+}
+
+nav {
+    background-color: #f1e1fa;
+    font-family: Arial;
+    text-align: center;
+    border-bottom: 1px dashed gray;
+    padding: 10px; 
+}
+
+nav a {
+    padding: 14px 16px;
+    color: #0e0c0e;
+    display: inline-block;
+    border: 2px solid #dec8eb;
+    border-radius: 20px; 
+    padding: 10px 10px 10px 10px; 
+    margin: 0 50px;
+    background-color: #dec8eb;
+}
+
+nav a:hover {
+    background-color: #be95c4;
+    color: white;
+}
+
+footer {
+    background-color: #be95c4;
+    color: #dbcae5;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    aspect-ratio: 1 / 1;
+    width: 300px;
+   
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.card {
+    background-color: #feeafa;
+    border-radius: 10px;
+    
+    padding: 10px 40px;
+}
+
+h2 {
+    text-align: center;
+    color: #8f19a2;
+    word-spacing: 10px;
+}
+
+.me {
+    display: flex;
+    padding: 0px 40px;
+}
+
+.personal_1 {
+    padding: 20px 40px 40px 10px;
+}
+
+.personal_2 {
+    padding: 20px 0px 20px 40px;
+
+}
+
+.mail>a>img {
+    width: 5%;
+    height: auto;
+}
+
+.mylist {
+    background-color: #d2add8;
+    border-radius: 20px;
+    padding: 50px;
+    font-size: larger;
+    line-height: 20px;
+}
+
+
+.allskill1 {
+    
+    right: 50;
+    padding: 0px 420px 15px;
+}
+
+
+
+.skill {
+    position: relative; 
+    border-bottom: 2px solid rgb(47, 41, 41); 
+    padding: 10px; 
+    margin: 0 20px;
+    
+}
+
+.skill-dot1 {
+    content: ""; 
+    position: absolute; 
+    bottom: -4px; 
+    left: 50%; 
+    width: 10px; 
+    height: 10px; 
+    background-color: black;
+    border-radius: 50%; 
+    transform: translateX(200%); 
+}
+
+.skill-dot2 {
+    content: ""; 
+    position: absolute;
+    bottom: -4px; 
+    left: 50%; 
+    width: 10px;
+    height: 10px; 
+    background-color: black; 
+    border-radius: 50%;
+    transform: translateX(-500%); 
+}
+
+.skill-dot3 {
+    content: ""; 
+    position: absolute;
+    bottom: -4px; 
+    left: 50%;
+    width: 10px;
+    height: 10px; 
+    background-color: black; 
+    border-radius: 50%; 
+    transform: translateX(70%); 
+}
+
+.skill-dot4 {
+    content: ""; 
+    position: absolute; 
+    bottom: -4px;
+    left: 50%; 
+    width: 10px; 
+    height: 10px; 
+    background-color: black; 
+    border-radius: 50%; 
+    transform: translateX(-250%); 
+}
+
+.skill-dot5 {
+    content: ""; 
+    position: absolute; 
+    bottom: -4px;
+    left: 50%; 
+    width: 10px; 
+    height: 10px; 
+    background-color: black; 
+    border-radius: 50%; 
+    transform: translateX(-200%); 
+}
+
+.skill-dot6 {
+    content: ""; 
+    position: absolute; 
+    bottom: -4px;
+    left: 50%; 
+    width: 10px; 
+    height: 10px; 
+    background-color: black; 
+    border-radius: 50%; 
+    transform: translateX(300%); 
+}
+
+.skill-dot7 {
+    content: ""; 
+    position: absolute; 
+    bottom: -4px;
+    left: 50%; 
+    width: 10px; 
+    height: 10px; 
+    background-color: black; 
+    border-radius: 50%; 
+    transform: translateX(-300%); 
+}
+
+.array {
+    width: 1080px;
+    display: flex;
+}
+
+.item exp-img {
+    width: 100%;
+}
+
+.item {
+    width: 500px;
+    padding: 0px 20px;
+}
+
+b {
+    font-size: large;
+    color: #8f19a2;
+}
+
+.card>.title>h2 {
+    text-align: center;
+}
+
+.txt {
+    text-align: center;
+}
+
+.txt_1 {
+    width: 300px;
+}
+
+.txt_1>p {
+    font-weight: bold;
+}
+
+.txt>h3 {
+    color: black;
+}
+
+.mail {
+    padding: 20px 60px;
+}
+
+
+h3 {
+    color: #8f19a2;
+}
+
+.call {
+    display: flex;
+}
+
+.fram1{
+    border: 2px solid pink; 
+    background-color: pink;
+    border-radius: 5px; 
+    padding: 30px; 
+    margin: 0 20px; 
+    position: relative; 
+    right: 250px;
+    
+    
+}
+
+.fram2{
+    border: 2px solid pink; 
+    background-color: pink;
+    border-radius: 5px; 
+    padding: 30px; 
+    margin: 0 20px;
+    position: relative;  
+    left: 250px;
+   
+   
+   
+    
+}
+
+.line{
+    text-align: center;
+    align-content: center;
+    border-bottom: 1px dashed gray;
+}
